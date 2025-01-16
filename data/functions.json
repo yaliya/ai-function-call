@@ -1,0 +1,40 @@
+[
+  {
+    "type": "function",
+    "function": {
+      "name": "container_40_hc",
+      "description": "Calculates a fee for container of size 40 and type hc.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "description": "Shipment details from the user."
+          }
+        },
+        "required": [
+          "prompt"
+        ]
+      }
+    }
+  },
+  {
+    "type": "function",
+    "function": {
+      "name": "hazmat_fee_class_9",
+      "description": "Calculates a fee shipment containing class_9 hazmat",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "prompt": {
+            "type": "string",
+            "description": "Shipment details from the user."
+          }
+        },
+        "required": [
+          "prompt"
+        ]
+      }
+    }
+  }
+]
